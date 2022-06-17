@@ -1,0 +1,220 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-05-19T06:22:06.515Z",
+        "line": 15,
+        "name": "",
+        "description": "    To verify the Login",
+        "id": ";;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5733000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User is on Facebook Page",
+            "match": {
+              "location": "org.step.Step.user_is_on_Facebook_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 347000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enters \"Vijay\" and \"1234@1234\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Vijay\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"1234@1234\"",
+                  "offset": 24
+                }
+              ],
+              "location": "org.step.Step.user_enters_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 88000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "click login button",
+            "match": {
+              "location": "org.step.Step.click_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9269000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Error page displayed",
+            "match": {
+              "location": "org.step.Step.error_page_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-05-19T06:22:22.139Z",
+        "line": 16,
+        "name": "",
+        "description": "    To verify the Login",
+        "id": ";;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4238000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User is on Facebook Page",
+            "match": {
+              "location": "org.step.Step.user_is_on_Facebook_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 356000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enters \"Mani@134\" and \"mani@6789\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Mani@134\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"mani@6789\"",
+                  "offset": 27
+                }
+              ],
+              "location": "org.step.Step.user_enters_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 168000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "click login button",
+            "match": {
+              "location": "org.step.Step.click_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5310000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Error page displayed",
+            "match": {
+              "location": "org.step.Step.error_page_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-05-19T06:22:32.249Z",
+        "line": 17,
+        "name": "",
+        "description": "    To verify the Login",
+        "id": ";;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6144000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User is on Facebook Page",
+            "match": {
+              "location": "org.step.Step.user_is_on_Facebook_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 529000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enters \"vijaymani@\" and \"fbmani@1234\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"vijaymani@\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"fbmani@1234\"",
+                  "offset": 29
+                }
+              ],
+              "location": "org.step.Step.user_enters_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 80000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "click login button",
+            "match": {
+              "location": "org.step.Step.click_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5352000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Error page displayed",
+            "match": {
+              "location": "org.step.Step.error_page_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "",
+    "description": "  Check Login Functionality",
+    "id": "",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Fb.feature",
+    "tags": []
+  }
+]
